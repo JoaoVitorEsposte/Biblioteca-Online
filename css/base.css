@@ -1,0 +1,16 @@
+:root {
+    --preto: #000;
+    --branco: #eee;
+
+    --tiro-kannada: 'Tiro Kannada', serif;
+
+    font-size: 1.4em;
+}
+
+.container {
+    box-sizing: border-box;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}

@@ -1,0 +1,51 @@
+.cabecalho {
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100vw;
+    padding-top: 3%;
+}
+
+.cabecalho__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalho__flex--titulo{
+    font-size: 1.65rem;
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cabecalho__flex-nav {
+    align-self: center;
+}
+
+.cabecalho__flex-nav-ul-li {
+    margin-bottom: 1.4rem;
+    margin-top: 1.4rem;
+}
+
+.cabecalho__flex-nav-ul-link {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 374px) {
+    .cabecalho__flex {
+        flex-direction: column;
+    }
+
+    .cabecalho__flex--titulo {
+        font-size: 1.4rem;
+    }
+
+    .cabecalho__flex-nav-ul-li {
+        display: inline-block;
+        margin-right: .2rem;
+    }
+
+    .cabecalho__flex-nav-ul-link {
+        font-size: 1rem;
+    }
+}
