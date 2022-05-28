@@ -1,0 +1,14 @@
+.chamada {
+    font-family: var(--tiro-kannada);
+    background-color: silver;
+}
+
+.chamada__citacao {
+    font-size: 1.3rem;
+    line-height: 1.3em;
+}
+
+.chamada__citacao cite {
+    font-style: italic;
+    line-height: 2em;
+}

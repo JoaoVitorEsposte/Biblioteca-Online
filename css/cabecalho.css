@@ -3,6 +3,7 @@
     color: var(--branco);
     width: 100vw;
     padding-top: 3%;
+    font-family: var(--tiro-kannada);
 }
 
 .cabecalho__flex {
@@ -42,10 +43,10 @@
 
     .cabecalho__flex-nav-ul-li {
         display: inline-block;
-        margin-right: .2rem;
+        margin-right: .15rem;
     }
 
     .cabecalho__flex-nav-ul-link {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
