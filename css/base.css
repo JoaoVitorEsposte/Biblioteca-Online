@@ -1,10 +1,13 @@
 :root {
     --preto: #000;
     --branco: #eee;
+    --cinza-medio: #D9D9D9;
 
     --tiro-kannada: 'Tiro Kannada', serif;
 
     font-size: 1.4em;
+
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -13,4 +16,9 @@
     padding-right: 6%;
     padding-top: 6%;
     padding-bottom: 3%;
+}
+
+.autor {
+    font-style: italic;
+    line-height: 2em;
 }

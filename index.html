@@ -8,12 +8,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@0;1&display=swap" rel="stylesheet">
         <link href="./css/reset.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
         <link href="./css/cabecalho.css" rel="stylesheet">
         <link href="./css/chamada.css" rel="stylesheet">
+        <link href="./css/destaques.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
         <!--Estrutura da página será:
         Cabeçalho -- FEITO;
-        Chamada;
+        Chamada -- FEITO;
         Destaques;
         Autores;
         Contato;
@@ -37,8 +38,42 @@
             <section class="chamada container">
                 <blockquote class="chamada__citacao">
                     "Não se adquire um bom vocabulário com a leitura de livros escritos conforme uma ideia do que seja o vocabulário da faixa etária do leitor. Ele vem da leitura de livros acima da sua capacidade."
-                    <br><cite>J. R. R. Tolkien</cite>
+                    <br><cite class="autor">J. R. R. Tolkien</cite>
                 </blockquote>
+            </section>
+
+            <section class="destaques">
+                <h2 class="destaques__titulo">Obras em Destaque</h2>
+                <ul>
+                    <li class="destaques__caixaLivro">
+                        <figure>
+                            <img src="./img/capa_senhor_aneis.png" alt="Capa O Senhor dos Anéis - A Sociedade do Anel" class="destaques__caixaLivro-capa">
+                            <figcaption class="destaques__caixaLivro-titulo container">O Senhor dos Anéis - A Sociedade do Anel</figcaption>
+                            <cite class="autor container">J. R. R. Tolkien</cite>
+                        </figure>
+                    </li>
+                    <li class="destaques__caixaLivro">
+                        <figure>
+                            <img src="./img/capa_memorias_bras_cubas.png" alt="Capa Memórias Póstumas de Brás Cubas" class="destaques__caixaLivro-capa">
+                            <figcaption class="destaques__caixaLivro-titulo container">Memórias Póstumas de Brás Cubas</figcaption>
+                            <cite class="autor container">Machado de Assis</cite>
+                        </figure>
+                    </li>
+                    <li class="destaques__caixaLivro">
+                        <figure>
+                            <img src="./img/capa_historias-extra.png" alt="Capa Histórias Extraordinárias" class="destaques__caixaLivro-capa">
+                            <figcaption class="destaques__caixaLivro-titulo container">Histórias Extraordinárias</figcaption>
+                            <cite class="autor container">Edgar Allan Poe</cite>
+                        </figure>
+                    </li>
+                    <li class="destaques__caixaLivro">
+                        <figure>
+                            <img src="./img/capa_olho_mundo.png" alt="Capa O Olho do Mundo - Série A Roda do Tempo" class="destaques__caixaLivro-capa">
+                            <figcaption class="destaques__caixaLivro-titulo container">O Olho do Mundo - Série A Roda do Tempo</figcaption>
+                            <cite class="autor container">Robert Jordan</cite>
+                        </figure>
+                    </li>
+                </ul>
             </section>
         </main>
     </body>

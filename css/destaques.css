@@ -1,0 +1,32 @@
+.destaques {
+    background-color: var(--cinza-medio);
+}
+
+.destaques__titulo {
+    line-height: 1.7rem;
+    font-size: 1.6em;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    padding: 7% 0 0 0;
+}
+
+.destaques__caixaLivro {
+    font-size: 1.3em;
+    margin-top: 7%;
+}
+
+.destaques__caixaLivro-capa {
+    width: 100vw;
+    max-width: 465px;
+}
+
+.destaques__caixaLivro-titulo {
+    line-height: 1.4rem;
+}
+
+.destaques .autor {
+    font-size: 0.9em;
+}
