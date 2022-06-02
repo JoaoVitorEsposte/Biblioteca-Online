@@ -1,0 +1,28 @@
+.autores {
+    background-color: var(--cinza-medio);
+}
+
+.autores__titulo {
+    line-height: 1.7rem;
+    font-size: 1.6em;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    padding: 7% 0 0 0;
+}
+
+.autores__autor {
+    margin-top: 7%;
+}
+
+.autores__autor-foto {
+    width: 100vw;
+    max-width: 460px;
+}
+
+.autores__autor-nome {
+    line-height: 1.4rem;
+    font-size: 1.3em;
+}

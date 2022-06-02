@@ -1,0 +1,20 @@
+.contato {
+    background-color: var(--cinza-medio);
+}
+
+.contato__titulo {
+    line-height: 1.7rem;
+    font-size: 1.6em;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    padding: 7% 0 0 0;
+}
+
+.contato__info {
+    margin-top: 7%;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+}

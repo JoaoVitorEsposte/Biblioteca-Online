@@ -12,6 +12,12 @@
         <link href="./css/chamada.css" rel="stylesheet">
         <link href="./css/destaques.css" rel="stylesheet">
         <link href="./css/base.css" rel="stylesheet">
+        <link href="./css/autores.css" rel="stylesheet">
+        <link href="./css/contato.css" rel="stylesheet">
+
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!--Estrutura da página será:
         Cabeçalho -- FEITO;
         Chamada -- FEITO;
@@ -75,6 +81,51 @@
                     </li>
                 </ul>
             </section>
+
+            <section class="autores">
+                <h2 class="autores__titulo">Autores</h2>
+                <ul>
+                    <li class="autores__autor">
+                        <figure>
+                            <img src="./img/autor_jrr_tolkien.jpg" alt="Foto de J. R. R. Tolkien" class="autores__autor-foto">
+                            <figcaption class="autores__autor-nome container">John Ronald Reuel Tolkien</figcaption>
+                        </figure>
+                    </li>
+                    <li class="autores__autor">
+                        <figure>
+                            <img src="./img/autor_machado_assis.jpg" alt="Foto de Machado de Assis" class="autores__autor-foto">
+                            <figcaption class="autores__autor-nome container">Joaquim Maria Machado de Assis</figcaption>
+                        </figure>
+                    </li>
+                    <li class="autores__autor">
+                        <figure>
+                            <img src="./img/autor_robert_jordan.jpg" alt="Foto de Robert Jordan" class="autores__autor-foto">
+                            <figcaption class="autores__autor-nome container">James Oliver Rigney, Jr.</figcaption>
+                        </figure>
+                    </li>
+                    <li class="autores__autor">
+                        <figure>
+                            <img src="./img/autor_edgar_allan.jpg" alt="Foto de Edgar Allan Poe" class="autores__autor-foto">
+                            <figcaption class="autores__autor-nome container">Edgar Allan Poe</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="contato container">
+                <h2 class="contato__titulo">Contato</h2>
+                <address class="contato__info">
+                    Caso queira nos contactar, pode enviar um email para <a href="mailto:loremipsum@lorem.com">loremipsum@lorem.com</a><br><br>
+                    Ou ligue para nosso telefone fixo <a href="tel:000000000">00000-0000</a>
+                </address>
+            </section>
         </main>
+        <footer>
+
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
