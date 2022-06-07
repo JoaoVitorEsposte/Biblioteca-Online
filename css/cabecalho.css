@@ -2,7 +2,7 @@
     background-color: var(--preto);
     color: var(--branco);
     width: 100vw;
-    padding-top: 3%;
+    padding: 3%;
     font-family: var(--tiro-kannada);
 }
 
@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 .cabecalho__flex--titulo{
@@ -48,5 +50,15 @@
 
     .cabecalho__flex-nav-ul-link {
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1051px){
+    .cabecalho__flex--titulo{
+        font-size: 1.9em;
+    }
+
+    .cabecalho__flex-nav-ul-link{
+        font-size: 1.45em;
     }
 }

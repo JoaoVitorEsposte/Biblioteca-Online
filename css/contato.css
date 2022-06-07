@@ -1,10 +1,11 @@
 .contato {
     background-color: var(--cinza-medio);
+    width: 100vw;
 }
 
 .contato__titulo {
-    line-height: 1.7rem;
-    font-size: 1.6em;
+    line-height: normal;
+    font-size: 8vw;
 
     text-align: center;
 
@@ -17,4 +18,12 @@
     margin-top: 7%;
     line-height: 1.4rem;
     font-size: 1.2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1051px){
+    .contato__titulo{
+        font-size: 8vw;
+        line-height: normal;
+    }
 }

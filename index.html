@@ -8,10 +8,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@0;1&display=swap" rel="stylesheet">
         <link href="./css/reset.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
         <link href="./css/cabecalho.css" rel="stylesheet">
         <link href="./css/chamada.css" rel="stylesheet">
         <link href="./css/destaques.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
         <link href="./css/autores.css" rel="stylesheet">
         <link href="./css/contato.css" rel="stylesheet">
 
@@ -32,9 +32,9 @@
                 <h1 class="cabecalho__flex--titulo">Biblioteca<br>Online</h1>
                 <nav class="cabecalho__flex-nav">
                     <ul class="cabecalho__flex-nav-ul">
-                        <li class="cabecalho__flex-nav-ul-li"><a href="#" class="cabecalho__flex-nav-ul-link">Destaques</a></li>
-                        <li class="cabecalho__flex-nav-ul-li" ><a href="#" class="cabecalho__flex-nav-ul-link">Autores</a></li>
-                        <li class="cabecalho__flex-nav-ul-li" ><a href="#" class="cabecalho__flex-nav-ul-link">Contato</a></li>
+                        <li class="cabecalho__flex-nav-ul-li"><a href="#destaques" class="cabecalho__flex-nav-ul-link">Destaques</a></li>
+                        <li class="cabecalho__flex-nav-ul-li" ><a href="#autores" class="cabecalho__flex-nav-ul-link">Autores</a></li>
+                        <li class="cabecalho__flex-nav-ul-li" ><a href="#contato" class="cabecalho__flex-nav-ul-link">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -48,62 +48,62 @@
                 </blockquote>
             </section>
 
-            <section class="destaques">
+            <section id="destaques" class="destaques container">
                 <h2 class="destaques__titulo">Obras em Destaque</h2>
                 <ul>
-                    <li class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
                         <figure>
                             <img src="./img/capa_senhor_aneis.png" alt="Capa O Senhor dos Anéis - A Sociedade do Anel" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo container">O Senhor dos Anéis - A Sociedade do Anel</figcaption>
-                            <cite class="autor container">J. R. R. Tolkien</cite>
+                            <figcaption class="destaques__caixaLivro-titulo">O Senhor dos Anéis - A Sociedade do Anel</figcaption>
+                            <cite class="autor">J. R. R. Tolkien</cite>
                         </figure>
                     </li>
-                    <li class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
                         <figure>
                             <img src="./img/capa_memorias_bras_cubas.png" alt="Capa Memórias Póstumas de Brás Cubas" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo container">Memórias Póstumas de Brás Cubas</figcaption>
-                            <cite class="autor container">Machado de Assis</cite>
+                            <figcaption class="destaques__caixaLivro-titulo">Memórias Póstumas de Brás Cubas</figcaption>
+                            <cite class="autor">Machado de Assis</cite>
                         </figure>
                     </li>
-                    <li class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
                         <figure>
                             <img src="./img/capa_historias-extra.png" alt="Capa Histórias Extraordinárias" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo container">Histórias Extraordinárias</figcaption>
-                            <cite class="autor container">Edgar Allan Poe</cite>
+                            <figcaption class="destaques__caixaLivro-titulo">Histórias Extraordinárias</figcaption>
+                            <cite class="autor">Edgar Allan Poe</cite>
                         </figure>
                     </li>
-                    <li class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
                         <figure>
                             <img src="./img/capa_olho_mundo.png" alt="Capa O Olho do Mundo - Série A Roda do Tempo" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo container">O Olho do Mundo - Série A Roda do Tempo</figcaption>
-                            <cite class="autor container">Robert Jordan</cite>
+                            <figcaption class="destaques__caixaLivro-titulo">O Olho do Mundo - Série A Roda do Tempo</figcaption>
+                            <cite class="autor">Robert Jordan</cite>
                         </figure>
                     </li>
                 </ul>
             </section>
 
-            <section class="autores">
+            <section id="autores" class="autores">
                 <h2 class="autores__titulo">Autores</h2>
                 <ul>
-                    <li class="autores__autor">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
                         <figure>
                             <img src="./img/autor_jrr_tolkien.jpg" alt="Foto de J. R. R. Tolkien" class="autores__autor-foto">
                             <figcaption class="autores__autor-nome container">John Ronald Reuel Tolkien</figcaption>
                         </figure>
                     </li>
-                    <li class="autores__autor">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
                         <figure>
                             <img src="./img/autor_machado_assis.jpg" alt="Foto de Machado de Assis" class="autores__autor-foto">
                             <figcaption class="autores__autor-nome container">Joaquim Maria Machado de Assis</figcaption>
                         </figure>
                     </li>
-                    <li class="autores__autor">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
                         <figure>
                             <img src="./img/autor_robert_jordan.jpg" alt="Foto de Robert Jordan" class="autores__autor-foto">
                             <figcaption class="autores__autor-nome container">James Oliver Rigney, Jr.</figcaption>
                         </figure>
                     </li>
-                    <li class="autores__autor">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
                         <figure>
                             <img src="./img/autor_edgar_allan.jpg" alt="Foto de Edgar Allan Poe" class="autores__autor-foto">
                             <figcaption class="autores__autor-nome container">Edgar Allan Poe</figcaption>
@@ -112,7 +112,7 @@
                 </ul>
             </section>
 
-            <section class="contato container">
+            <section id="contato" class="contato container">
                 <h2 class="contato__titulo">Contato</h2>
                 <address class="contato__info">
                     Caso queira nos contactar, pode enviar um email para <a href="mailto:loremipsum@lorem.com">loremipsum@lorem.com</a><br><br>
@@ -120,9 +120,6 @@
                 </address>
             </section>
         </main>
-        <footer>
-
-        </footer>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();

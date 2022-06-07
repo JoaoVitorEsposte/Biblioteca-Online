@@ -1,6 +1,7 @@
 .chamada {
     font-family: var(--tiro-kannada);
     background-color: silver;
+    width: 100vw;
 }
 
 .chamada__citacao {
