@@ -15,15 +15,15 @@
 }
 
 .contato__info {
-    margin-top: 7%;
+    margin: 7% 0 13% 0;
     line-height: 1.4rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
-@media screen and (min-width: 1051px){
-    .contato__titulo{
-        font-size: 8vw;
+@media screen and (min-width: 1024px){
+    .contato__titulo {
+        font-size: 5vw;
         line-height: normal;
     }
 }
