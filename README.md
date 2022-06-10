@@ -9,6 +9,6 @@ Em uma tela de 1024px de largura são exibidas duas imagens lado a lado, e em te
 A apresentação do cabeçalho é alterada em telas de 374px ou menores para poupar o espaço horizontalmente, deixando o menu de navegação abaixo do título do site.
 A biblioteca AOS foi utilizada para gerar as animações exibidas pelas imagens tanto dos livros como dos autores.
 
-Utilizei também tags semânticas como <figure>, <cite> e <address>, além de aplicar as funções tel: e mailto: ao número e email de contato na última section do site;
+Utilizei também tags semânticas como figure, cite e address, além de aplicar as funções tel: e mailto: ao número e email de contato na última section do site;
 
 https://user-images.githubusercontent.com/102496892/172972762-a2878481-2998-43f9-871f-95e3734bc361.mov
