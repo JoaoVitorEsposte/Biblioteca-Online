@@ -1,0 +1,16 @@
+.autores__lista__autor__foto {
+    max-width: 460px;
+    width: 100vw;
+}
+
+@media screen and (min-width: 1024px){
+    .autores__lista__autor__foto {
+        max-width: 420px;
+    }
+}
+
+@media screen and (min-width: 1913px){
+    .autores__lista__autor__foto {
+        max-width: 420px;
+    }
+}

@@ -1,0 +1,25 @@
+.autores__titulo {
+    line-height: normal;
+    font-size: 8vw;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    padding: 7% 0 0 0;
+}
+
+@media screen and (min-width: 1024px){
+
+    .autores__titulo {
+        font-size: 5vw;
+        line-height: normal;
+    }
+}
+
+@media screen and (min-width: 1913px){
+    .autores__titulo {
+        font-size: 5vw;
+        line-height: normal;
+    }
+}

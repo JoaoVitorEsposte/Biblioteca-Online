@@ -1,0 +1,14 @@
+.contato__titulo {
+    font-size: 8vw;
+    font-weight: bold;
+    line-height: normal;
+    padding: 7% 0 0 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .contato__titulo {
+        font-size: 5vw;
+        line-height: normal;
+    }
+}

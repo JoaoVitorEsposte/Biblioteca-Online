@@ -1,0 +1,11 @@
+.cabecalho__flex__nav__ul__li {
+    margin-bottom: 1.4rem;
+    margin-top: 1.4rem;
+}
+
+@media screen and (max-width: 374px) {
+    .cabecalho__flex-nav-ul-li {
+        display: inline-block;
+        margin-right: .15rem;
+    }
+}

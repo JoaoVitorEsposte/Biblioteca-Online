@@ -1,0 +1,15 @@
+.cabecalho__flex__nav__ul__link {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 374px) {
+    .cabecalho__flex-nav-ul-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1051px){
+    .cabecalho__flex-nav-ul-link{
+        font-size: 1.45em;
+    }
+}

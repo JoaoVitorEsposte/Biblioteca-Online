@@ -9,32 +9,52 @@
         <link href="https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@0;1&display=swap" rel="stylesheet">
         <link href="./css/reset.css" rel="stylesheet">
         <link href="./css/base.css" rel="stylesheet">
+        
+        <!--CSS de Cabecalho-->
         <link href="./css/cabecalho.css" rel="stylesheet">
+        <link href="./css/cabecalho/cabecalho-flex.css" rel="stylesheet">
+        <link href="./css/cabecalho/cabecalho-flex-titulo.css" rel="stylesheet">
+        <link href="./css/cabecalho/cabecalho-flex-nav.css" rel="stylesheet">
+        <link href="./css/cabecalho/cabecalho-flex-nav-ul.css" rel="stylesheet">
+        <link href="./css/cabecalho/cabecalho-flex-nav-ul-link.css" rel="stylesheet">
+        <link href="./css/cabecalho/cabecalho-flex-nav-ul-li.css" rel="stylesheet">
+        
+        <!--CSS de Chamada-->
         <link href="./css/chamada.css" rel="stylesheet">
+        <link href="./css/chamada-citacao.css" rel="stylesheet">
+        
+        <!--CSS de Destaques-->
         <link href="./css/destaques.css" rel="stylesheet">
+        <link href="./css/destaques/destaques-titulo.css" rel="stylesheet">
+        <link href="./css/destaques/lista/destaques-lista-caixaLivro.css" rel="stylesheet">
+        <link href="./css/destaques/lista/destaques-lista-caixaLivro-capa.css" rel="stylesheet">
+        <link href="./css/destaques/lista/destaques-lista-caixaLivro-titulo.css" rel="stylesheet">
+        
+        <!--CSS de Autores-->
         <link href="./css/autores.css" rel="stylesheet">
+        <link href="./css/autores/autores-titulo.css" rel="stylesheet">
+        <link href="./css/autores/autores-lista.css" rel="stylesheet">
+        <link href="./css/autores/lista/autores-lista-autor.css" rel="stylesheet">
+        <link href="./css/autores/lista/autores-lista-autor-foto.css" rel="stylesheet">
+        <link href="./css/autores/lista/autores-lista-autor-nome.css" rel="stylesheet">
+        
+        <!--CSS de Contato-->
         <link href="./css/contato.css" rel="stylesheet">
+        <link href="./css/contato/contato-info.css" rel="stylesheet">
+        <link href="./css/contato/contato-titulo.css" rel="stylesheet">
 
         <!--AOS-->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-        <!--Estrutura da página será:
-        Cabeçalho -- FEITO;
-        Chamada -- FEITO;
-        Destaques;
-        Autores;
-        Contato;
-        Rodapé;-->
     </head>
     <body>
         <header class="cabecalho container">
             <div class="cabecalho__flex">
-                <h1 class="cabecalho__flex--titulo">Biblioteca<br>Online</h1>
-                <nav class="cabecalho__flex-nav">
-                    <ul class="cabecalho__flex-nav-ul">
-                        <li class="cabecalho__flex-nav-ul-li"><a href="#destaques" class="cabecalho__flex-nav-ul-link">Destaques</a></li>
-                        <li class="cabecalho__flex-nav-ul-li" ><a href="#autores" class="cabecalho__flex-nav-ul-link">Autores</a></li>
-                        <li class="cabecalho__flex-nav-ul-li" ><a href="#contato" class="cabecalho__flex-nav-ul-link">Contato</a></li>
+                <h1 class="cabecalho__flex__titulo">Biblioteca<br>Online</h1>
+                <nav class="cabecalho__flex__nav">
+                    <ul class="cabecalho__flex__nav__ul">
+                        <li class="cabecalho__flex__nav__ul__li"><a href="#destaques" class="cabecalho__flex__nav__ul__link">Destaques</a></li>
+                        <li class="cabecalho__flex__nav__ul__li" ><a href="#autores" class="cabecalho__flex__nav__ul__link">Autores</a></li>
+                        <li class="cabecalho__flex__nav__ul__li" ><a href="#contato" class="cabecalho__flex__nav__ul__link">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -51,31 +71,31 @@
             <section id="destaques" class="destaques">
                 <h2 class="destaques__titulo">Obras em Destaque</h2>
                 <ul>
-                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__lista__caixaLivro">
                         <figure>
-                            <img src="./img/capa_senhor_aneis.png" alt="Capa O Senhor dos Anéis - A Sociedade do Anel" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo">O Senhor dos Anéis - A Sociedade do Anel</figcaption>
+                            <img src="./img/capa_senhor_aneis.png" alt="Capa O Senhor dos Anéis - A Sociedade do Anel" class="destaques__lista__caixaLivro-capa">
+                            <figcaption class="destaques__lista__caixaLivro-titulo">O Senhor dos Anéis - A Sociedade do Anel</figcaption>
                             <cite class="autor">J. R. R. Tolkien</cite>
                         </figure>
                     </li>
-                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__lista__caixaLivro">
                         <figure>
-                            <img src="./img/capa_memorias_bras_cubas.png" alt="Capa Memórias Póstumas de Brás Cubas" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo">Memórias Póstumas de Brás Cubas</figcaption>
+                            <img src="./img/capa_memorias_bras_cubas.png" alt="Capa Memórias Póstumas de Brás Cubas" class="destaques__lista__caixaLivro-capa">
+                            <figcaption class="destaques__lista__caixaLivro-titulo">Memórias Póstumas de Brás Cubas</figcaption>
                             <cite class="autor">Machado de Assis</cite>
                         </figure>
                     </li>
-                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__lista__caixaLivro">
                         <figure>
-                            <img src="./img/capa_historias-extra.png" alt="Capa Histórias Extraordinárias" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo">Histórias Extraordinárias</figcaption>
+                            <img src="./img/capa_historias-extra.png" alt="Capa Histórias Extraordinárias" class="destaques__lista__caixaLivro-capa">
+                            <figcaption class="destaques__lista__caixaLivro-titulo">Histórias Extraordinárias</figcaption>
                             <cite class="autor">Edgar Allan Poe</cite>
                         </figure>
                     </li>
-                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__caixaLivro">
+                    <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="10" class="destaques__lista__caixaLivro">
                         <figure>
-                            <img src="./img/capa_olho_mundo.png" alt="Capa O Olho do Mundo - Série A Roda do Tempo" class="destaques__caixaLivro-capa">
-                            <figcaption class="destaques__caixaLivro-titulo">O Olho do Mundo - Série A Roda do Tempo</figcaption>
+                            <img src="./img/capa_olho_mundo.png" alt="Capa O Olho do Mundo - Série A Roda do Tempo" class="destaques__lista__caixaLivro-capa">
+                            <figcaption class="destaques__lista__caixaLivro-titulo">O Olho do Mundo - Série A Roda do Tempo</figcaption>
                             <cite class="autor">Robert Jordan</cite>
                         </figure>
                     </li>
@@ -84,29 +104,29 @@
 
             <section id="autores" class="autores">
                 <h2 class="autores__titulo">Autores</h2>
-                <ul>
-                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
+                <ul class="autores__lista">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__lista__autor">
                         <figure>
-                            <img src="./img/autor_jrr_tolkien.jpg" alt="Foto de J. R. R. Tolkien" class="autores__autor-foto">
-                            <figcaption class="autores__autor-nome container">John Ronald Reuel Tolkien</figcaption>
+                            <img src="./img/autor_jrr_tolkien.jpg" alt="Foto de J. R. R. Tolkien" class="autores__lista__autor__foto">
+                            <figcaption class="autores__lista__autor__nome container">John Ronald Reuel Tolkien</figcaption>
                         </figure>
                     </li>
-                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__lista__autor">
                         <figure>
-                            <img src="./img/autor_edgar_allan.jpg" alt="Foto de Edgar Allan Poe" class="autores__autor-foto">
-                            <figcaption class="autores__autor-nome container">Edgar Allan Poe</figcaption>
+                            <img src="./img/autor_edgar_allan.jpg" alt="Foto de Edgar Allan Poe" class="autores__lista__autor__foto">
+                            <figcaption class="autores__lista__autor__nome container">Edgar Allan Poe</figcaption>
                         </figure>
                     </li>
-                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__lista__autor">
                         <figure>
-                            <img src="./img/autor_machado_assis.jpg" alt="Foto de Machado de Assis" class="autores__autor-foto">
-                            <figcaption class="autores__autor-nome container">Joaquim Maria Machado de Assis</figcaption>
+                            <img src="./img/autor_machado_assis.jpg" alt="Foto de Machado de Assis" class="autores__lista__autor__foto">
+                            <figcaption class="autores__lista__autor__nome container">Joaquim Maria Machado de Assis</figcaption>
                         </figure>
                     </li>
-                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__autor">
+                    <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="autores__lista__autor">
                         <figure>
-                            <img src="./img/autor_robert_jordan.jpg" alt="Foto de Robert Jordan" class="autores__autor-foto">
-                            <figcaption class="autores__autor-nome container">James Oliver Rigney, Jr. (Robert Jordan)</figcaption>
+                            <img src="./img/autor_robert_jordan.jpg" alt="Foto de Robert Jordan" class="autores__lista__autor__foto">
+                            <figcaption class="autores__lista__autor__nome container">James Oliver Rigney, Jr. (Robert Jordan)</figcaption>
                         </figure>
                     </li>
                 </ul>

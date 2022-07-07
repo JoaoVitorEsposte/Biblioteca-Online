@@ -1,0 +1,22 @@
+.destaques__titulo {
+    line-height: normal;
+    font-size: 8vw;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    padding: 7% 0 0 0;
+}
+
+@media screen and (min-width: 1024px){
+    .destaques__titulo {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 1914px) {
+    .destaques__titulo {
+        font-size: 5vw;
+    }
+}

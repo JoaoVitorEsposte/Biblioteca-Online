@@ -1,0 +1,12 @@
+.cabecalho__flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+@media screen and (max-width: 374px) {
+    .cabecalho__flex {
+        flex-direction: column;
+    }
+}

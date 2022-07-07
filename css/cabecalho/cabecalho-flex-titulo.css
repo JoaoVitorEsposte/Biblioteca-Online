@@ -1,0 +1,18 @@
+.cabecalho__flex__titulo{
+    align-self: center;
+    font-size: 1.65rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 374px) {
+    .cabecalho__flex--titulo {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1051px){
+    .cabecalho__flex--titulo{
+        font-size: 1.9em;
+    }
+}

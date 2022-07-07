@@ -1,0 +1,23 @@
+.destaques__lista__caixaLivro {
+    font-size: 1.3em;
+    margin-top: 7%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .destaques__lista__caixaLivro {
+        display: inline-block;
+        margin: 7% 73px;
+        max-width: 360px;
+        vertical-align: top;
+    }
+}
+
+@media screen and (min-width: 1914px) {
+    .destaques__lista__caixaLivro {
+        display: inline-block;
+        margin: 7% 3vw;
+        max-width: 360px;
+        vertical-align: top;
+    }
+}

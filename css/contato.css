@@ -2,28 +2,3 @@
     background-color: var(--cinza-medio);
     width: 100vw;
 }
-
-.contato__titulo {
-    line-height: normal;
-    font-size: 8vw;
-
-    text-align: center;
-
-    font-weight: bold;
-
-    padding: 7% 0 0 0;
-}
-
-.contato__info {
-    margin: 7% 0 13% 0;
-    line-height: 1.4rem;
-    font-size: 1.3rem;
-    text-align: center;
-}
-
-@media screen and (min-width: 1024px){
-    .contato__titulo {
-        font-size: 5vw;
-        line-height: normal;
-    }
-}

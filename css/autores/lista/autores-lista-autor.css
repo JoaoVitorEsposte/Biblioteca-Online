@@ -1,0 +1,29 @@
+.autores__lista__autor {
+    margin-top: 7%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .autores__lista__autor {
+        display: inline-block;
+        margin: 7% 43px;
+        vertical-align: middle;
+    }
+
+    .autores__lista__autor:last-child {
+        margin-left: 19px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1913px){
+    .autores__lista__autor {
+        display: inline-block;
+        margin: 0 19px;
+    }
+
+    .autores__lista__autor:last-child {
+        margin-left: 19px;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,18 @@
+.destaques__lista__caixaLivro-capa {
+    max-width: 465px;
+    width: 100vw;
+}
+
+@media screen and (min-width: 1024px){
+    .destaques__lista__caixaLivro-capa {
+        height: 450px;
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 1914px) {
+    .destaques__lista__caixaLivro-capa {
+        height: 450px;
+        width: 360px;
+    }
+}
